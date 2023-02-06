@@ -65,6 +65,9 @@ public class ColorLisstFragment extends ListFragment {
             case "Blue":
                 color = Color.BLUE;
                 break;
+            case    "Black":
+                color = Color.BLACK;
+                break;
         }
 
         if(mListener!=null) {
